@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A package for converting express request to axios request and axios response to express response.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node ./dist/server.js"
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
