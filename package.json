@@ -1,6 +1,6 @@
 {
   "name": "axios-express-proxy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A lightweight package for proxying express request to axios request and send back the response.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
