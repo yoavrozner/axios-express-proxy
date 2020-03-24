@@ -1,0 +1,26 @@
+{
+  "name": "axios-express-proxy",
+  "version": "1.0.0",
+  "description": "A package for converting express request to axios request and axios response to express response.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoavrozner/axios-express-proxy.git"
+  },
+  "author": "Yoav Rozner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoavrozner/axios-express-proxy/issues"
+  },
+  "homepage": "https://github.com/yoavrozner/axios-express-proxy#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
