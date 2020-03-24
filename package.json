@@ -4,7 +4,8 @@
   "description": "A package for converting express request to axios request and axios response to express response.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc && node ./dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/yoavrozner/axios-express-proxy#readme",
   "devDependencies": {
+    "@types/express": "^4.17.3",
     "typescript": "^3.8.3"
   },
   "dependencies": {
