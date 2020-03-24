@@ -2,7 +2,8 @@
 
 A lightweight package for proxying express request to axios request and send back the response.
 
-The package can also send just the express request to as an axios request and just the axios response as the express response.
+The package can also send just the express request as an axios request.
+In addition, the package can also send just the axios response as the express response.
 
 ## Usage
 
